@@ -1,4 +1,3 @@
-```markdown
 # BigBrain – Real-Time Quiz Game Frontend (React.js)
 
 > _Note: This project was originally developed in a private repository and later migrated here. That’s why commit history appears minimal._
