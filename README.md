@@ -55,26 +55,6 @@ npm install
 npm run dev
 # Then open http://localhost:3000
 ```
-
----
-
-## 📁 Project Structure
-
-```
-frontend/
-├── public/                # Static assets
-├── src/
-│   ├── components/        # Reusable UI blocks
-│   ├── layouts/           # Shared layout structure
-│   ├── pages/             # Routeable views
-│   ├── utils/             # API configs & helpers
-│   ├── __tests__/         # Unit tests
-│   └── App.jsx            # App entry & routing
-├── backend.config.json    # API base URL
-├── package.json
-└── README.md
-```
-
 ---
 
 ## 📜 Scripts
@@ -99,16 +79,6 @@ npm run test
 
 - All test files are under `src/__tests__/`
 - Includes tests for core UI components and the login flow
-
----
-
-## 🧹 Clean Git Practices (Optional)
-
-This project previously included a Git hook to:
-- Reject commits over 200+ insertions (excluding lockfiles)
-- Encourage smaller, more focused commits
-
-You can choose to re-enable this by restoring `setup.sh` and `pre-commit.sh` under `util/`.
 
 ---
 
